@@ -1,15 +1,14 @@
 {
-    "name": "comur/image-bundle",
+    "name": "clicklab/image-bundle",
     "type": "symfony-bundle",
     "description": "A bundle providing fields for image upload with jquery upload and image cropping with jcrop for symfony2",
     "keywords": ["Form Type", "image", "upload", "crop", "jcrop", "jquery upload"],
-    "homepage": "https://github.com/comur/ComurImageBundle",
+    "homepage": "http://clicklab.fr",
     "license": "MIT",
     "authors": [
         {
-            "name": "Can OMUR",
-            "email": "omur.can@gmail.com",
-            "homepage": "http://canomur.com"
+            "name": "Sacha MASSON",
+            "email": "sacha@click-eat.fr"
         }
     ],
     "require": {
