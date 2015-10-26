@@ -50,6 +50,13 @@
                             </div>
                         </div>
                         <div id="existing-images"></div>
+                        {%  if instagram is not empty %}
+                            <div>
+                                {% for photo in instagram %}
+                                    <a href="{{ url('clickeat_user_upload_from_instagram', { url: photo.thumb }) }}">  <img src="{{ photo.thumb }}"></a>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
                         <input type="hidden" id="selected_image"/>
                     </div>
                     <!-- CROP IMAGE -->
